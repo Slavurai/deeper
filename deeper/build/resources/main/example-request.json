@@ -1,0 +1,19 @@
+{
+  "square": {
+    "topLeft": {
+      "x": 0,
+      "y": 5
+    },
+    "sideLength": 5
+  },
+  "line": {
+    "start": {
+      "x": -1,
+      "y": 3
+    },
+    "end": {
+      "x": 6,
+      "y": 3
+    }
+  }
+}
