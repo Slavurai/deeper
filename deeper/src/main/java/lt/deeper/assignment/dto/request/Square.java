@@ -20,9 +20,9 @@ public class Square {
 
     return List.of(
         topLeft,
-        new PointRequest(x + s, y),         // Top-right
-        new PointRequest(x, y - s),         // Bottom-left
-        new PointRequest(x + s, y - s)      // Bottom-right
+        new PointRequest(x + s, y),
+        new PointRequest(x, y - s),
+        new PointRequest(x + s, y - s)
     );
   }
 }
