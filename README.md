@@ -26,6 +26,13 @@ I have added a deeper/src/main/resources/example-request.json
 and deeper/src/main/resources/example-response.json
 files which can be used for testing the http://localhost:8080/public/intersections.
 
+The http://localhost:8080/secure/requests/count is protected by basic authentication. You can
+use example credentials created in DataInitializer.java for testing
+(username: admin, password: admin123 or user: user, password: user123). I chose to use
+DataInitializer instead of, for example, flyway migration scripts, to be able to use encoded passwords.
+The database console can be accessed at http://localhost:8080/h2-console
+( jdbc url: jdbc:h2:mem:testdb, username: admin, password: admin ).
+
 # Architectural overview and motivation behind components/libraries used
 
 The application is built on top of Spring Boot and uses Spring Security for authentication.
