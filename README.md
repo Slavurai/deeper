@@ -51,9 +51,8 @@ The application uses the following libraries:
 - `org.springframework.boot:spring-boot-starter-data-jpa` - used for database access
 - `com.h2database:h2` - lightweight in-memory database
 - `org.springframework.boot:spring-boot-starter-validation` - used for validation
-- 'org.springframework.security:spring-security-crypto' - used for password encryption
-- 'org.projectlombok:lombok' - used for code generation
--
+- `org.springframework.security:spring-security-crypto` - used for password encryption
+- `org.projectlombok:lombok` - used for code generation
 
 # Notes
 
