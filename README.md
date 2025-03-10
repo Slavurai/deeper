@@ -18,9 +18,13 @@ Run the application with `./gradlew bootRun`
 
 The application is written in Java 19.
 
+The application can be accessed at http://localhost:8080/,
+main endpoints being http://localhost:8080/secure/requests/count and
+http://localhost:8080/public/intersections . You can use curl or Postman to test the endpoints.
+
 I have added a deeper/src/main/resources/example-request.json
 and deeper/src/main/resources/example-response.json
-files which can be used for testing the application.
+files which can be used for testing the http://localhost:8080/public/intersections.
 
 # Architectural overview and motivation behind components/libraries used
 
