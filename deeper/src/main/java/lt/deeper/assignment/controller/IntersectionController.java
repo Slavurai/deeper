@@ -1,5 +1,6 @@
 package lt.deeper.assignment.controller;
 
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lt.deeper.assignment.dto.request.IntersectionRequest;
 import lt.deeper.assignment.dto.response.IntersectionResponse;
@@ -21,7 +22,7 @@ public class IntersectionController {
 
 
   @PostMapping(value = "/intersections", produces = MediaType.APPLICATION_JSON_VALUE)
-  public IntersectionResponse checkIntersection(@RequestBody IntersectionRequest request) {
+  public IntersectionResponse checkIntersection(@Valid @RequestBody IntersectionRequest request) {
     return intersectionService.checkIntersection(request.getSquare(), request.getLine());
   }
 }

@@ -1,5 +1,6 @@
 package lt.deeper.assignment.dto.request;
 
+import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -10,6 +11,7 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Square {
+  @NotNull
   private PointRequest topLeft;
   private double sideLength;
 
