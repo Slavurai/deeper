@@ -18,6 +18,10 @@ Run the application with `./gradlew bootRun`
 
 The application is written in Java 19.
 
+I have added a deeper/src/main/resources/example-request.json
+and deeper/src/main/resources/example-response.json
+files which can be used for testing the application.
+
 # Architectural overview and motivation behind components/libraries used
 
 The application is built on top of Spring Boot and uses Spring Security for authentication.
